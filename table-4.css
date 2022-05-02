@@ -5,19 +5,19 @@
 .btn-blue{  background: #0082FC;  color: #fff;  text-decoration: none !important;}
 .btn .fa-chevron-right {  font-size: 10px;  width: 20px;  padding: 4px 0px;  border: 1px solid #fff;  border-radius: 50%;  margin-left: 5px;}
 
-#productTable{  padding: 80px 0px;}
-#productTable ul{  margin:0;  padding:0;}
-#productTable ul li {  list-style: none;  display: grid;  grid-template-columns: calc(1 / 12 * 100%)  calc(3 / 12 * 100%) auto calc(3 / 12 * 100%);}
-#productTable ul li.item {  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);  border-radius: 3px;  margin: 35px 0px;  padding: 20px 0px;}
-#productTable ul li.item span.name {  position: relative;  display: block;}
-#productTable ul li.item span.badge {  padding: 8px 15px;  color: #27AE60;  line-height: 1;  font-size: 12px;  font-weight: 800;  text-transform: uppercase;  background: #E1F4E9;  border-radius: 4px;  margin-bottom: 10px;  display: inline-block;}
-#productTable ul li.item span.name h3 a{  font-weight: 600;  font-size: 22px;  line-height: 32px;  margin-bottom: 15px; text-decoration: none !important; color: #333}
-#productTable ul li.item > span {  padding: 15px;  display: grid;  align-items: center;}
-#productTable ul li.item > span:last-child {  border-right: 0px solid #eee;}
-#productTable ul li.item span.meta {  display: grid;}
-#productTable ul li.item span.meta > span {  margin-bottom: 10px;}
-#productTable ul li.item span.meta > span b {  color: #E03E2D;}
-#productTable span.rating {  display: block;  margin: 15px 0px;}
-#productTable span.rating i.fa-star{  color: #FFC107;}
-#productTable span.rating b {  font-size: 18px;  font-weight: 800;  margin-left: 8px;  position: relative;  top: 1px;}
+.productTable{  padding: 80px 0px;}
+.productTable ul{  margin:0;  padding:0;}
+.productTable ul li {  list-style: none;  display: grid;  grid-template-columns: calc(1 / 12 * 100%)  calc(3 / 12 * 100%) auto calc(3 / 12 * 100%);}
+.productTable ul li.item {  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);  border-radius: 3px;  margin: 35px 0px;  padding: 20px 0px;}
+.productTable ul li.item span.name {  position: relative;  display: block;}
+.productTable ul li.item span.badge {  padding: 8px 15px;  color: #27AE60;  line-height: 1;  font-size: 12px;  font-weight: 800;  text-transform: uppercase;  background: #E1F4E9;  border-radius: 4px;  margin-bottom: 10px;  display: inline-block;}
+.productTable ul li.item span.name h3 a{  font-weight: 600;  font-size: 22px;  line-height: 32px;  margin-bottom: 15px; text-decoration: none !important; color: #333}
+.productTable ul li.item > span {  padding: 15px;  display: grid;  align-items: center;}
+.productTable ul li.item > span:last-child {  border-right: 0px solid #eee;}
+.productTable ul li.item span.meta {  display: grid;}
+.productTable ul li.item span.meta > span {  margin-bottom: 10px;}
+.productTable ul li.item span.meta > span b {  color: #E03E2D;}
+.productTable span.rating {  display: block;  margin: 15px 0px;}
+.productTable span.rating i.fa-star{  color: #FFC107;}
+.productTable span.rating b {  font-size: 18px;  font-weight: 800;  margin-left: 8px;  position: relative;  top: 1px;}
 .row-number { background-color: #27ae60; font-weight: 700; font-size: 20px; line-height: 20px; padding: 8px 12px; color: #fff; text-align: center; border-radius: 7px;}
