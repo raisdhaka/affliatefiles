@@ -1,0 +1,10 @@
+@media all and (max-width:669px){
+.wp-block-columns.product {display: block;}   
+.product .thumb, .product .details {padding: 15px;}
+.wp-block-group .wp-block-group {padding: 10px;}
+ul.products .title span {display: none;}
+ul.products {border-top: 1px solid;}
+.productTable ul li {display: block;}
+.products span.img {text-align: center;}
+.cg-tbl-ribbon small {margin-left: auto;margin-right: auto;width: 66%;display: block;}
+}
