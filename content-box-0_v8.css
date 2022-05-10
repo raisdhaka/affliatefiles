@@ -18,7 +18,7 @@
 .product ul {    list-style: none;}
 .product .thumb {    padding-bottom: 15px !important;}
 .product .thumb img {display: block;margin-left: auto;margin-right: auto;max-width: 200px;}
-.product .affpilot-pro-advantage, .product .affpilot-product-box-pons {max-width: 100%!important;margin-left: 0!important;margin-right: 0!important;}
+.product .affpilot-pro-advantage, .product .affpilot-product-box-pons {max-width: 100%!important;margin-left: 0!important;margin-right: 0!important; padding-top:15px !important; padding-bottom:15px !important}
 
 .product h4, .product h2, .product ul {margin-left: 0 !important;}
 @media all and (max-width:669px){
