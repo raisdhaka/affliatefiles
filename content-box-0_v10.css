@@ -24,5 +24,5 @@
 @media all and (max-width:669px){
    .product  .thumb, .details {padding-left: 15px !important;padding-right: 15px !important;}
     .product {margin-bottom:50px!important;    padding: 0 15px 15px;}
-    product   .details {padding-bottom: 45px !important; }
+    .product   .details {padding-bottom: 45px !important; }
 }
