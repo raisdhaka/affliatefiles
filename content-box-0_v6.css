@@ -5,8 +5,8 @@
 .product .btn .fa-chevron-right {  font-size: 10px;  width: 20px;  padding: 4px 0px;  border: 1px solid #fff;  border-radius: 50%;  margin-left: 5px;}
 .product .badge {      max-width: 150px !important; position: absolute;  left: -20px;  top: -20px;  z-index: 9;  padding: 10px 12px;  color: #fff;  border: 2px solid #1B4ABE;  line-height: 1;  font-size: 18px;  font-weight: 800;  background: #1B4ABE;}
 .product .badge:after {  content: "";  position: absolute; bottom: -12px;  left: -2px;  border-top: 10px solid #002a91;  border-left: 13px solid transparent;  z-index: 9;}
-.product { margin-bottom: 15px!important;  border: 8px solid #3C78F0;  box-shadow: 0px 0px 5px #3C78F0;font-family: 'Open Sans', sans-serif;}
-.product .thumb, .product .details {  padding: 50px;  position: relative;}
+.product { margin-bottom: 25px!important;  border: 8px solid #3C78F0;  box-shadow: 0px 0px 5px #3C78F0;font-family: 'Open Sans', sans-serif;     padding-top: 0;}
+.product .thumb, .product .details {      padding: 25px;     max-width: 100% !important;}
 .product .details .title {  color: #D6363C;  text-decoration: underline;font-weight: 800;}
 .product .details .subtitle {  margin: 15px 0px 25px;}
 .product .bookmark {  position: absolute;  top: 20px;  right: 30px;  font-size: 18px;  color: #000;  cursor: pointer;  transition: 0.3s;}
@@ -21,5 +21,5 @@
 
 @media all and (max-width:669px){
    .product  .thumb, .details {padding-left: 15px !important;padding-right: 15px !important;}
-    .product {margin-bottom:50px!important;}
+    .product {margin-bottom:50px!important;    padding: 0 15px 15px;}
 }
