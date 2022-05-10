@@ -1,14 +1,14 @@
 td.name h3 a {text-decoration: none !important;    box-shadow: none;    color: #111;font-size: .7em;}
 .wrap{ width: 100%;max-width: 1240px;margin:0 auto;padding: 0 15px; }
-.btn { display: block; margin: 12px; padding: 12px 10px; text-align: center; background: #ddd; color: #333;text-decoration: none; border-radius: 4px; transition: 0.3s; line-height: 1; font-weight: 600; }
-.btn:hover{ background: #333;color: #fff; }
-.btn-orange{ background: #F39C12; color: #fff;  text-decoration: none !important;}
-.btn-blue{ background: #0071DC; color: #fff;  text-decoration: none !important;}
-.btn .fa-chevron-right { font-size: 10px; width: 20px; padding: 4px 0px; border: 1px solid #fff; border-radius: 50%; margin-left: 5px; }
+.productTable .btn { display: block; margin: 12px; padding: 12px 10px; text-align: center; background: #ddd; color: #333;text-decoration: none; border-radius: 4px; transition: 0.3s; line-height: 1; font-weight: 600; }
+.productTable .btn:hover{ background: #333;color: #fff; }
+.productTable .btn-orange{ background: #F39C12; color: #fff;  text-decoration: none !important;}
+.productTable .btn-blue{ background: #0071DC; color: #fff;  text-decoration: none !important;}
+.productTable .btn .fa-chevron-right { font-size: 10px; width: 20px; padding: 4px 0px; border: 1px solid #fff; border-radius: 50%; margin-left: 5px; }
 .productTable{ padding: 80px 0px;}
-.row-number { background-color: #27ae60; font-weight: 700; font-size: 20px; line-height: 20px; padding: 8px 12px; color: #fff; text-align: center; border-radius: 7px;}
+.productTable .row-number { background-color: #27ae60; font-weight: 700; font-size: 20px; line-height: 20px; padding: 8px 12px; color: #fff; text-align: center; border-radius: 7px;}
 @media all and (max-width:669px){    
-    td, tr, th{display:block!important;text-align:center;}
-    thead{display:none}
-    td.img a, td.img a img {display: block;width: 70%;margin: 0 auto;}
+    .productTable td, .productTable tr, .productTable th{display:block!important;text-align:center;}
+    .productTable thead{display:none}
+    .productTable td.img a, .productTable td.img a img {display: block;width: 70%;margin: 0 auto;}
 }
