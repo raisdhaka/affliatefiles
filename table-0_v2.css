@@ -7,7 +7,18 @@ td.name h3 a {text-decoration: none !important;    box-shadow: none;    color: #
 .productTable .btn .fa-chevron-right { font-size: 10px; width: 20px; padding: 4px 0px; border: 1px solid #fff; border-radius: 50%; margin-left: 5px; }
 .productTable{ padding: 80px 0px;}
 .productTable .row-number { background-color: #27ae60; font-weight: 700; font-size: 20px; line-height: 20px; padding: 8px 12px; color: #fff; text-align: center; border-radius: 7px;}
+.productTable, .productTable td {border: 0px solid !important;}
+.productTable tr {border-bottom: 1px solid #eee !important;}
+.productTable tr:hover {    background-color: #f9f9f9;}
+.productTable  .btn{background-color: #d9534f ; border-color: #cf4f4c ; padding: 7px 14px; margin-bottom: 0; font-size: 14px; font-weight: 700; line-height: 1.42857143; text-align: center; white-space: nowrap;    border-radius: 4px; }
+.productTable  .btn:hover, .productTable  .btn:focus, .productTable  .btn:active { background-color: #b94744 ;  border-color: #b04441 ;}
+.productTable span.row-number {display: inline-block; margin-top: -8px; margin-left: -8px; position: absolute; color: #fff; font-weight: bold; background: #d9534f; width: 35px; height: 35px; line-height: 31px; border-radius: 50%; font-size: 15px;text-align: center;padding: 0;}
+.productTable td.img {width: 20%;}
+.productTable  td, .productTable  td * { vertical-align: top;}
+.productTable  td.price, .productTable  td.price * { vertical-align: middle;}
 @media all and (max-width:669px){    
+    .productTable td.img {    width: 100% !important;}
+    .productTable span.row-number{    position: relative !important;margin: 10px 0;}
     .productTable td, .productTable tr, .productTable th{display:block!important;text-align:center;}
     .productTable thead{display:none}
     .productTable td.img a, .productTable td.img a img {display: block;width: 70%;margin: 0 auto;}
